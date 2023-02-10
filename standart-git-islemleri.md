@@ -69,6 +69,9 @@ Hangi dalda olunduğu, değiştirilmiş veya eklenmiş dosyalar gösterilir.
 `git show <commit-id>`<br>
 Commit id kullanılarak ilgili committe ne değiştiğini gösterir. eğer `--no-patch` argümanı kullanılırsa, git log gösteriminde olduğu gibi sadece commit ile ilgili detaylar gösterilir. 
 
+`git reset --hard <commit-id>`<br>
+Commit id kullanılarak ilgili commite geri döner.
+
 ## Etiketleme (Tagging)
 `git tag <etiket ismi>`<br>
 Mevcut commiti (HEAD), verilen isim ile etiketler.
