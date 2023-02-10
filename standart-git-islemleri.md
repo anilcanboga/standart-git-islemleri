@@ -72,6 +72,9 @@ Commit id kullanılarak ilgili committe ne değiştiğini gösterir. eğer `--no
 `git reset --hard <commit-id>`<br>
 Commit id kullanılarak ilgili commite geri döner.
 
+`git merge --abort`<br>
+Conflict çıkmadan önceki haline çevirir.
+
 ## Etiketleme (Tagging)
 `git tag <etiket ismi>`<br>
 Mevcut commiti (HEAD), verilen isim ile etiketler.
